@@ -39,6 +39,13 @@
             exibirResultado : function(resultado){
                 document.getElementById("resultado").innerText = "A melhor opção é : " + resultado;
             },
+            limparCampos: function(){
+                document.getElementById("precoAlcool").value = "";
+                document.getElementById("kmAlcool").value = "";
+                document.getElementById("precoGasolina").value="";
+                document.getElementById("kmGasolina").value="";
+                document.getElementById("resultado").innerText="";
+            }
         };
 
         //Processar os dados
